@@ -1,9 +1,25 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "Cart": [
+    {
+      "name": "Adidas red T-shirt lorem ipsum dolor sitament consectetuer",
+      "price": 9999,
+      "size": "x-Large",
+      "Quantity": 2,
+      "color": "black",
+      "colorImg": "https://i.ibb.co/2gwc3Rz/blackshirt.jpg",
+      "id": 1
+    },
+    {
+      "name": "Adidas red T-shirt lorem ipsum dolor sitament consectetuer",
+      "price": 9999,
+      "size": "Small",
+      "Quantity": 1,
+      "color": "red",
+      "colorImg": "https://i.ibb.co/4WSws5Q/itemimg3.jpg",
+      "id": 2
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "CartCounter": {
+    "Counter": 2
+  }
 }
